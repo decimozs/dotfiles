@@ -45,6 +45,9 @@ return packer.startup(function(use)
 	-- [plugin] - color scheme
 	use("rebelot/kanagawa.nvim") -- kanagawa theme
 
+	-- [plugin] - discord rich presence
+	use("andweeb/presence.nvim")
+
 	-- [plugin] - maximizes and restores current window
 	use("szw/vim-maximizer")
 
