@@ -60,6 +60,9 @@ return packer.startup(function(use)
 	-- [plugin] - icons
 	use("nvim-tree/nvim-web-devicons")
 
+	-- [plugin] - terminal
+	use("akinsho/toggleterm.nvim")
+
 	-- [plugin] - status line
 	use("nvim-lualine/lualine.nvim")
 
