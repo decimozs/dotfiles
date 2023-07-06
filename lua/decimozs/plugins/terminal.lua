@@ -6,7 +6,7 @@ end
 
 terminal.setup({
 	size = 20,
-	open_mapping = [[<c-\>]],
+	open_mapping = [[<esc>]],
 	hide_numbers = true,
 	shade_filetypes = {},
 	shade_terminals = true,
@@ -15,12 +15,9 @@ terminal.setup({
 	insert_mappings = true,
 	direction = "float",
 	close_on_exit = true,
+	shell = "%SystemRoot%/System32/WindowsPowerShell/v1.0/powershell.exe",
 	float_opts = {
 		border = "curved",
 		windblend = 0,
-		highlights = {
-			border = "Normal",
-			background = "Normal",
-		},
 	},
 })
