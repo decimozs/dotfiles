@@ -121,6 +121,9 @@ return packer.startup(function(use)
 	-- [plugin] - git integration
 	use("lewis6991/gitsigns.nvim") -- show line modifications on left hand side
 
+	-- [plugin] - gopher a go plugin
+	use("olexsmir/gopher.nvim")
+
 	if packer_bootstrap then
 		require("packer").sync()
 	end
