@@ -1,3 +1,3 @@
 -- set colorscheme to your theme
 
-vim.cmd("colorscheme kanagawa")
+vim.cmd("colorscheme kanagawa-wave")
