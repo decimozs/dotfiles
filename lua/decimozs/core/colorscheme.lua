@@ -1,3 +1,3 @@
 -- set colorscheme to your theme
 
-vim.cmd("colorscheme kanagawa-wave")
+vim.cmd("colorscheme gruvbox")

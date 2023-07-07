@@ -17,7 +17,7 @@ if not typescript_setup then
 end
 
 -- util safety
-local util = require "lspconfig/util"
+local util = require("lspconfig/util")
 
 local keymap = vim.keymap -- for conciseness
 

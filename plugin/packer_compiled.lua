@@ -119,6 +119,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\marlo\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\gopher.nvim",
     url = "https://github.com/olexsmir/gopher.nvim"
   },
+  ["gruvbox.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\marlo\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\gruvbox.nvim",
+    url = "https://github.com/ellisonleao/gruvbox.nvim"
+  },
   ["kanagawa.nvim"] = {
     loaded = true,
     path = "C:\\Users\\marlo\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\kanagawa.nvim",

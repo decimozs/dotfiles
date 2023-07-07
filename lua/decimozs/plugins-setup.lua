@@ -44,6 +44,7 @@ return packer.startup(function(use)
 
 	-- [plugin] - color scheme
 	use("rebelot/kanagawa.nvim") -- kanagawa theme
+	use("ellisonleao/gruvbox.nvim") -- gruvbox theme
 
 	-- [plugin] - discord rich presence
 	use("andweeb/presence.nvim")
