@@ -36,6 +36,9 @@ return packer.startup(function(use)
 	-- [plugin] - plenary
 	use("nvim-lua/plenary.nvim")
 
+	-- [plugin] - vim notify
+	use("rcarriga/nvim-notify")
+
 	-- [plugin] - transparent theme
 	use("xiyaowong/transparent.nvim")
 

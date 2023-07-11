@@ -1,12 +1,12 @@
 -- safety checker
 local install, lualine = pcall(require, "lualine")
 if not install then
-  return
+	return
 end
 
 -- else run the plugin
 lualine.setup({
-  options = {
-    theme = 'ayu_mirage'
-  }
+	options = {
+		theme = "nightfly",
+	},
 })
