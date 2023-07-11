@@ -92,10 +92,12 @@ lspconfig["emmet_ls"].setup({
 	filetypes = { "html", "typescriptreact", "javascriptreact", "css", "sass", "scss", "less", "svelte" },
 })
 
--- configue c langauge serer
+-- configue c language server
 lspconfig["clangd"].setup({
+	on_attach = function(client, bufnr)
+		on_attach(client, bufnr)
+	end,
 	capabilities = capabilities,
-	on_attach = on_attach,
 })
 
 -- configure go language server
