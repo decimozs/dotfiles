@@ -34,6 +34,7 @@ mason_lspconfig.setup({
 		"jsonls", -- json
 		"jdtls", -- java
 		"pylsp", -- python
+		"prismals", -- prisma
 	},
 	-- auto-install configured servers (with lspconfig)
 	automatic_installation = true, -- not the same as ensure_installed
