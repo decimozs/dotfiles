@@ -129,6 +129,9 @@ return packer.startup(function(use)
 	-- [plugin] - gopher a go plugin
 	use("olexsmir/gopher.nvim")
 
+	-- [plugin] - prisma
+	use("prisma/vim-prisma")
+
 	if packer_bootstrap then
 		require("packer").sync()
 	end

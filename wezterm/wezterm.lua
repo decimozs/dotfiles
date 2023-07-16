@@ -31,6 +31,7 @@ config.window_background_gradient = {
 config.window_background_opacity = 0.7
 
 config.default_prog = { "C:/Program Files/Git/bin/bash.exe --login -i", "-l" }
+
 config.enable_tab_bar = false
 config.hide_tab_bar_if_only_one_tab = true
 

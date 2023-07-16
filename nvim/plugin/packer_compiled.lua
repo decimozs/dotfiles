@@ -265,6 +265,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\marlo\\.config\\nvim\\nvim-data\\site\\pack\\packer\\start\\vim-maximizer",
     url = "https://github.com/szw/vim-maximizer"
+  },
+  ["vim-prisma"] = {
+    loaded = true,
+    path = "C:\\Users\\marlo\\.config\\nvim\\nvim-data\\site\\pack\\packer\\start\\vim-prisma",
+    url = "https://github.com/prisma/vim-prisma"
   }
 }
 
